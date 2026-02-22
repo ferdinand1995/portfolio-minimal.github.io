@@ -7,17 +7,18 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "start": "gatsby develop",
     "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "engines": {
     "node": ">=18.0.0"
   },
+    "start": "gatsby develop",
+
   "dependencies": {
-    "gatsby": "^4.25.9",
+    "gatsby": "^5.16.1",
     "gatsby-theme-portfolio-minimal": "4.6.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "author": "Konstantin Münster <mail@konstantin.digital>",
   "license": "0BSD",
