@@ -1,18 +1,18 @@
 {
-  "name": "gatsby-starter-portfolio-minimal-theme",
+  "name": "ferdinand-tedjakusuma-portfolio-minimal",
   "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "description": "A Gatsby Portfolio Minimal Project.",
   "scripts": {
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
+    "start": "gatsby develop",
     "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "engines": {
     "node": ">=18.0.0"
   },
-    "start": "gatsby develop",
 
   "dependencies": {
     "gatsby": "^5.16.1",
